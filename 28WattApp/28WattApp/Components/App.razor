@@ -25,12 +25,56 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper.js"></script>
+
 </body>
 <style>
     body {
         font-family: 'Inter', sans-serif;
         color: #212529;
         font-size: 14px;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+        .section-title h2 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 0;
+            line-height: 1px;
+            margin-bottom: 15px;
+            color: #3D70FF;
+        }
+
+        .section-title p {
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            position: relative;
+            font-size: 40px;
+            font-weight: 700;
+            color: #4e4039;
+        }
+
+            .section-title p::after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 60px;
+                height: 2px;
+                background: #3d70ff;
+                bottom: 0;
+                left: calc(50% - 30px);
+            }
+
+    .star_part i {
+        font-size: 26px;
+    }
+
+    .checked {
+        color: #FFAA05;
     }
 </style>
 </html>
