@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="_content/Radzen.Blazor/css/material-base.css">
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="28WattApp.styles.css" />
-    <link href="~/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="responsive.css" rel="stylesheet" />
     <HeadOutlet />
 </head>
 
@@ -25,8 +26,8 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/swiper/swiper.js"></script>
-
+   @*  <script src="assets/vendor/swiper/swiper.js"></script> *@
+    <script src="~/swiper.js"></script>
 </body>
 <style>
     body {
@@ -75,6 +76,97 @@
 
     .checked {
         color: #FFAA05;
+    }
+    .main{
+        margin-top: 20px;
+    }
+
+    .faq {
+        padding: 60px 0;
+    }
+
+        .faq .faq-list {
+            padding: 0;
+            list-style: none;
+        }
+
+            .faq .faq-list li {
+                border-bottom: 1px solid #eae7e5;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+            }
+
+            .faq .faq-list .question {
+                display: block;
+                position: relative;
+                font-family: #3D70FF;
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 400;
+                font-weight: 600;
+                padding-left: 25px;
+                cursor: pointer;
+                color: #3D70FF;
+                transition: 0.3s;
+            }
+
+            .faq .faq-list i {
+                font-size: 16px;
+                position: absolute;
+                left: 0;
+                top: -2px;
+            }
+
+            .faq .faq-list p {
+                margin-bottom: 0;
+                padding: 10px 0 0 25px;
+                font-size: 14px;
+            }
+
+            .faq .faq-list .bi-plus-lg {
+                display: none;
+            }
+
+            .faq .faq-list .collapsed {
+                color: #343a40;
+            }
+
+                .faq .faq-list .collapsed:hover {
+                    color: #3D70FF;
+                }
+
+                .faq .faq-list .collapsed .bi-plus-lg {
+                    display: inline-block;
+                    transition: 0.6s;
+                }
+
+                .faq .faq-list .collapsed .bi-dash-lg {
+                    display: none;
+                    transition: 0.6s;
+                }
+
+    .goals-form-btn a {
+        background-color: #3D70FF;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+    }
+
+        .goals-form-btn a:hover {
+            background-color: #3D70FF;
+        }
+
+        .goals-form-btn a i {
+            display: inline-block;
+            transition: 0.3s ease-in;
+        }
+
+    .goals-form-btn i {
+        margin-right: 8px;
+    }
+
+    .goals-form-btn a:hover i {
+        transform: translateX(50%);
     }
 </style>
 </html>

@@ -1,0 +1,356 @@
+﻿body {
+    ul li
+{
+    font-size: 13px;
+}
+p{
+    font-size: 13px !important;
+    margin-bottom: 10px
+}
+@media (max-width: 375px) {
+
+    /*footer*/
+    .copyright {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    #footer .copyright ul li {
+        margin-right: 10px;
+    }
+
+    .foot-bott-res {
+        align-items: start !important;
+    }
+
+    #footer {
+        padding: 0 0 80px 0;
+    }
+
+    .img-fluid-res {
+        padding: 0;
+    }
+
+    .home_bg_img {
+        border-radius: inherit;
+    }
+
+        .home_bg_img .home_bg_text {
+            top: 41px;
+            left: 32px;
+        }
+
+        .home_bg_img h3 {
+            font-size: 27px;
+        }
+
+        .home_bg_img .home_bg_text p {
+            font-size: 14px;
+        }
+
+    .home_form_part_bg {
+        width: 341px;
+        top: 211px;
+        left: 18px;
+        padding: 20px;
+    }
+
+    .form_top_part h4 {
+        font-size: 18px;
+    }
+
+    .form_top_part ul li {
+        font-size: 12px;
+    }
+
+
+
+    /*hotpumpand water*/
+    .top-img {
+        top: 107px;
+        left: 122px;
+    }
+
+        .top-img img {
+            width: 110px;
+        }
+    .your-eqp-box-bg ul{
+        padding-top: 10px !important ; 
+    }
+    .your-eqp-box-bg .text {
+        padding-bottom: 8px;
+    }
+
+    .your-eqp-box-bg {
+        padding: 60px 20px 20px 20px;
+    }
+
+    .eqp-side-box h5 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    user agent stylesheet
+    label {
+        cursor: default;
+    }
+
+    .pay-box .form-check-inline {
+        font-size: 12px;
+    }
+    .per-watt-price span {
+        font-size: 18px;
+    }
+    .per-watt-price {
+        padding: 10px 0 !important;
+    }
+    .water-box-bg{
+        margin-top: 20px !important;
+        padding: 20px
+    }
+    .water-box-right{
+        padding-top: 10px;
+    }
+    .water-box-bg .title-sec h5 {
+        font-size: 18px;
+    }
+    .cate-part{
+        padding-top: 10px !important;
+    }
+    .water-box-bg .title h5 {
+        font-size: 18px;
+    }
+    .cate-select .form-select {
+        font-size: 13px;
+        width: 100%;
+    }
+    .badge-part-bg {
+        font-size: 8px;
+        top: 7px;
+        left: 150px;
+    }
+    .cate-img-part {
+        padding-top: 10px !important;
+    }
+
+    .cate-inner-left ul {
+        margin-bottom: 0 
+    }
+    .serv-info {
+        padding-top: 18px !important;
+    }
+    .last-ser-info {
+        padding-bottom: 10px !important;
+    }
+    .ser-inne-part ul {
+        margin-bottom: 0;
+        padding-top: 0
+    }
+    .ser-inne-part h6 {
+   font-size: 15px !important
+    }
+    .goals-form-btn {
+        margin-top: 15px !important
+    }
+    .title-sec .pay-box{
+        padding-top: 10px!important
+    }
+    .quote-price{
+        padding-top: 0px !important
+    }
+    .quote-price span{
+        font-size: 18px
+    }
+    .price-box-eqp-res {
+        margin-top: 10px !important
+    }
+    .step  {
+        padding-top: 10px !important;
+    }
+    .step-text h6{
+      font-size: 14px !important
+    }
+    .step-img img {
+        padding-right: 11px !important;
+        width: 120px !important;
+    }
+    .step-bottom-bg h6 {
+        font-size: 14px !important
+    }
+
+
+
+    .faq {
+        padding: 0 !important
+    }
+    .fq-section-bg .container{
+        padding: 0 
+    }
+    .fq-section-bg .section-title{
+        padding-bottom: 10px
+    }
+   
+}
+@media (min-width: 376px) and (max-width:575px){
+
+    /*hotpumpand water*/
+    .top-img {
+        top: 115px;
+        left: 140px;
+    }
+    .badge-part-bg {
+        left: 198px;
+    }
+
+        .top-img img {
+            width: 110px;
+        }
+
+    .your-eqp-box-bg ul {
+        padding-top: 10px !important;
+    }
+
+    .your-eqp-box-bg .text {
+        padding-bottom: 8px;
+    }
+
+    .your-eqp-box-bg {
+        padding: 60px 20px 20px 20px;
+    }
+
+    .eqp-side-box h5 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    user agent stylesheet
+    label {
+        cursor: default;
+    }
+
+    .pay-box .form-check-inline {
+        font-size: 12px;
+    }
+
+    .per-watt-price span {
+        font-size: 18px;
+    }
+
+    .per-watt-price {
+        padding: 10px 0 !important;
+    }
+    .water-box-right {
+        padding-top: 10px;
+    }
+
+    .water-box-bg .title-sec h5 {
+        font-size: 18px;
+    }
+
+    .cate-part {
+        padding-top: 10px !important;
+    }
+
+    .water-box-bg .title h5 {
+        font-size: 18px;
+    }
+
+    .cate-select .form-select {
+        font-size: 13px;
+        width: 100%;
+    }
+
+  
+
+    .cate-img-part {
+        padding-top: 10px !important;
+    }
+
+    .cate-inner-left ul {
+        margin-bottom: 0
+    }
+
+    .serv-info {
+        padding-top: 18px !important;
+    }
+
+    .last-ser-info {
+        padding-bottom: 10px !important;
+    }
+
+    .ser-inne-part ul {
+        margin-bottom: 0;
+        padding-top: 0
+    }
+
+    .ser-inne-part h6 {
+        font-size: 15px !important
+    }
+
+    .goals-form-btn {
+        margin-top: 15px !important
+    }
+
+    .title-sec .pay-box {
+        padding-top: 10px !important
+    }
+
+    .quote-price {
+        padding-top: 0px !important
+    }
+
+        .quote-price span {
+            font-size: 18px
+        }
+
+    .price-box-eqp-res {
+        margin-top: 10px !important
+    }
+
+    .step {
+        padding-top: 10px !important;
+    }
+
+    .step-text h6 {
+        font-size: 14px !important
+    }
+
+    .step-img img {
+        padding-right: 11px !important;
+        width: 120px !important;
+    }
+
+    .step-bottom-bg h6 {
+        font-size: 14px !important
+    }
+
+
+
+    .faq {
+        padding: 0 !important
+    }
+
+    .fq-section-bg .container {
+        padding: 0
+    }
+
+    .fq-section-bg .section-title {
+        padding-bottom: 10px
+    }
+   
+}
+}
+
+@media (max-width:575px){
+
+}
+@media (min-width:575px) and (max-width:767px){
+
+}
+@media  (max-width:768px) {
+
+    .water-box-bg {
+        margin-top: 20px !important;
+        padding: 20px
+    }
+}

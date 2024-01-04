@@ -1,6 +1,7 @@
-﻿<footer id="footer" class="pb-3">
+﻿<footer id="footer">
+
     <div class-b="footer_cust_rate">
-        <div class="foot_top_bg text-white mt-5">
+        <div class="foot_top_bg text-white">
             <div class="container">
                 <div class="foot_top_part">
                     <div class="foot_logo_part">
@@ -47,14 +48,14 @@
                         <div class="foot_cont_dflex">
                             <div class="footer_cont_deta mt-3">
                                 <ul>
-                                    <li><img src="assets/img/Speach_Bubbles.png" alt="" class="img-fluid">Direct online help</li>
+                                    <li>Direct online help</li>
                                     <li>0414 687 130</li>
                                     <li>info@28watt.com.au</li>
                                     <li>Whatsapp us</li>
                                 </ul>
                             </div>
                             <div class="foot_cont_deta_img">
-                                <img src="image/Finances.png" alt="" class="img-fluid">
+                                <img src="/assets/image/Finances.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -70,7 +71,7 @@
                     <div class="col-md-3 footer-links">
                         <h4>About 28Watt</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About usfbghdfx</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Careers</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Contact us</a></li>
                         </ul>
@@ -96,8 +97,163 @@
         </div>
     </div>
 </footer>
-
 <style>
+    #footer {
+        padding: 0 0 30px 0;
+        color: #212529;
+        font-size: 14px;
+    }
+
+        #footer .footer_cust_rate {
+            text-align: center;
+            font-size: 15px;
+        }
+
+            #footer .footer_cust_rate h4 {
+                font-size: 24px;
+                margin: 0 0 20px 0;
+                padding: 0;
+                line-height: 1;
+                font-weight: 600;
+                color: #4e4039;
+            }
+
+            #footer .footer_cust_rate form {
+                margin-top: 30px;
+                background: #fff;
+                padding: 6px 10px;
+                position: relative;
+                border-radius: 4px;
+                box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+                text-align: left;
+            }
+
+                #footer .footer_cust_rate form input[type=email] {
+                    border: 0;
+                    padding: 4px 4px;
+                    width: calc(100% - 100px);
+                }
+
+                #footer .footer_cust_rate form input[type=submit] {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    border: 0;
+                    background: none;
+                    font-size: 16px;
+                    padding: 0 20px;
+                    background: #eb5d1e;
+                    color: #fff;
+                    transition: 0.3s;
+                    border-radius: 4px;
+                    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+                }
+
+                    #footer .footer_cust_rate form input[type=submit]:hover {
+                        background: #c54811;
+                    }
+
+        #footer .footer-top {
+            padding: 60px 0 30px 0;
+            background: #0A142F;
+        }
+
+            #footer .footer-top .footer-contact {
+                margin-bottom: 30px;
+            }
+
+                #footer .footer-top .footer-contact h4 {
+                    font-size: 22px;
+                    margin: 0 0 30px 0;
+                    padding: 2px 0 2px 0;
+                    line-height: 1;
+                    font-weight: 700;
+                }
+
+                #footer .footer-top .footer-contact p {
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-bottom: 0;
+                    font-family: "Raleway", sans-serif;
+                    color: #5c5c5c;
+                }
+
+            #footer .footer-top h4 {
+                font-size: 16px;
+                font-weight: bold;
+                color: #fff;
+                position: relative;
+                padding-bottom: 12px;
+            }
+
+            #footer .footer-top .footer-links ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+                #footer .footer-top .footer-links ul i {
+                    padding-right: 2px;
+                    color: #FFF;
+                    font-size: 18px;
+                    line-height: 1;
+                }
+
+                #footer .footer-top .footer-links ul li {
+                    padding: 7px 0;
+                    display: flex;
+                    align-items: center;
+                }
+
+                    #footer .footer-top .footer-links ul li:first-child {
+                        padding-top: 0;
+                    }
+
+                #footer .footer-top .footer-links ul a {
+                    color: #fff;
+                    transition: 0.3s;
+                    display: inline-block;
+                    line-height: 1;
+                }
+
+                    #footer .footer-top .footer-links ul a:hover {
+                        text-decoration: none;
+                        color: #3D70FF;
+                    }
+
+            #footer .footer-top .social-links a {
+                font-size: 18px;
+                display: inline-block;
+                background: #eb5d1e;
+                color: #fff;
+                line-height: 1;
+                padding: 8px 0;
+                margin-right: 4px;
+                border-radius: 50%;
+                text-align: center;
+                width: 36px;
+                height: 36px;
+                transition: 0.3s;
+            }
+
+                #footer .footer-top .social-links a:hover {
+                    background: #ef7f4d;
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+        #footer .copyright {
+            text-align: center;
+            float: left;
+        }
+
+            #footer .copyright ul li {
+                display: inline-block;
+                margin-right: 50px;
+                font-size: 12px;
+            }
+
     .foot_top_part {
         display: flex;
         align-items: center;
@@ -116,6 +272,10 @@
         background-color: #0a142fb0;
         padding: 25px 0;
         font-size: 14px;
+    }
+
+    .checked {
+        color: #FFAA05;
     }
 
     .foot_cont_dflex {
@@ -155,91 +315,11 @@
             font-size: 16px;
             border: 1px solid #b3b0b0;
             border-radius: 50px;
-            padding: 5px;
+            padding: 2px 5px;
             margin-left: 5px;
         }
 
-    #footer {
-        color: #212529;
-        font-size: 14px;
-    }
-
-        #footer .footer_cust_rate {
-            text-align: center;
-            font-size: 15px;
-        }
-
-            #footer .footer_cust_rate h4 {
-                font-size: 24px;
-                margin: 0 0 20px 0;
-                padding: 0;
-                line-height: 1;
-                font-weight: 600;
-                color: #4e4039;
-            }
-
-        #footer .footer-top {
-            padding: 60px 0 30px 0;
-            background: #0A142F;
-        }
-
-            #footer .footer-top h4 {
-                font-size: 16px;
-                font-weight: bold;
-                color: #fff;
-                position: relative;
-                padding-bottom: 12px;
-            }
-
-        #footer .copyright {
-            text-align: center;
-            float: left;
-        }
-
-            #footer .copyright ul li {
-                display: inline-block;
-                margin-right: 50px;
-                font-size: 12px;
-            }
-
-        #footer .footer-top .footer-links ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-            #footer .footer-top .footer-links ul i {
-                padding-right: 2px;
-                color: #FFF;
-                font-size: 18px;
-                line-height: 1;
-            }
-
-            #footer .footer-top .footer-links ul li {
-                padding: 7px 0;
-                display: flex;
-                align-items: center;
-            }
-
-                #footer .footer-top .footer-links ul li:first-child {
-                    padding-top: 0;
-                }
-
-            #footer .footer-top .footer-links ul a {
-                color: #fff;
-                transition: 0.3s;
-                display: inline-block;
-                line-height: 1;
-            }
-
-                #footer .footer-top .footer-links ul a:hover {
-                    text-decoration: none;
-                    color: #3D70FF;
-                }
-
-   
 </style>
-
 @code {
 
 }
