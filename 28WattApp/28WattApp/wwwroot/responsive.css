@@ -191,16 +191,27 @@ p{
     }
    
 }
+@media (min-width: 376px) and (max-width:476px){
+    /*hotpumpand water*/
+    .top-img {
+        top: 115px;
+        left: 137px;
+    }
+
+    .badge-part-bg {
+        left: 165px;
+    }
+}
 @media (min-width: 376px) and (max-width:575px){
 
     /*hotpumpand water*/
-    .top-img {
+   /* .top-img {
         top: 115px;
         left: 140px;
     }
     .badge-part-bg {
-        left: 198px;
-    }
+        left: 165px;
+    }*/
 
         .top-img img {
             width: 110px;
@@ -221,11 +232,6 @@ p{
     .eqp-side-box h5 {
         font-size: 18px;
         font-weight: 700;
-    }
-
-    user agent stylesheet
-    label {
-        cursor: default;
     }
 
     .pay-box .form-check-inline {
@@ -351,6 +357,6 @@ p{
 
     .water-box-bg {
         margin-top: 20px !important;
-        padding: 20px
+        padding: 20px;
     }
 }
