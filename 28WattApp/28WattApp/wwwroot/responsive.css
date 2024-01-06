@@ -191,7 +191,21 @@ p{
     }
    
 }
-@media (min-width: 376px) and (max-width:476px){
+@media (min-width: 376px) and (max-width:475px){
+    /*hotpumpand water*/
+    .top-img {
+        top: 115px;
+        left: 137px;
+    }
+
+    .badge-part-bg {
+        left: 165px;
+    }
+    .badge-part-bg {
+        font-size: 8px;
+    }
+}
+@media (min-width: 476px) and (max-width:575px) {
     /*hotpumpand water*/
     .top-img {
         top: 115px;
@@ -350,8 +364,39 @@ p{
 @media (max-width:575px){
 
 }
-@media (min-width:575px) and (max-width:767px){
-
+@media (min-width:576px) and (max-width:768px){
+    .pumpwater-sec .col-md-4 {
+        width: 100%
+    }
+    .pumpwater-sec .col-md-8 {
+        width: 100%
+    }
+    .top-img {
+        top: 83px !important;
+        left: 298px !important;
+    }
+        .top-img img {
+            width: 170px;
+        }
+        .water-box-right {
+            padding-top: 10px;
+        }
+    .water-box-bg .title h5 {
+        font-size: 26px !important;
+    }
+    .water-box-bg .title-sec h5 {
+        font-size: 28px !important;
+    }
+    .cate-select .form-select {
+        width: 100% !important;
+    }
+    .badge-part-bg {
+   
+        left: 501px !important;
+    }
+    .step .step-img img {
+        width: 80px !important;
+    }
 }
 @media  (max-width:768px) {
 
