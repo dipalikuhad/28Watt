@@ -5,12 +5,13 @@
         <form action="">
             <div class="row pumpwater-sec">
                 
-                <div class="top-img">
-                    <img src="assets/image/equp.png" alt="" class="img-fluid">
-                </div>
+                
                 <div class="col-md-4 col-sm-12">
                     <div class="eqp-side-box ">
                         <div class="your-eqp-box-bg boxfixed">
+                            <div class="top-img">
+                                <img src="assets/image/equp.png" alt="" class="img-fluid">
+                            </div>
                             <h5>Equipment</h5>
                             <p class="mb-0"><b>260 L heat pump hot water system</b></p>
                             <ul class="p-3 mb-0">
@@ -101,9 +102,10 @@
                                             <option value="2">Dux Airoheat - 786 L</option>
                                             <option value="3">Dux Airoheat - 590 L</option>
                                         </select>
-                                    </div>
-                                    <div class="badge-part-bg">
-                                        <span>Recommended</span>
+
+                                        <div class="badge-part-bg">
+                                            <span>Recommended</span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row align-items-start justify-content-between pt-5 cate-img-part">
@@ -285,7 +287,7 @@
     }
     .your-eqp-box-bg {
         background-color: #fff;
-        padding: 90px 30px 30px 30px;
+        padding: 0 30px 30px 30px;
         border-radius: 20px;
         box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     }
@@ -302,10 +304,10 @@
     }
 
     .top-img {
-        position: absolute;
-        top: 94px;
-        left: 214px;
-        z-index: 1;
+        text-align: center;
+        margin-top: -86px;
+        display: inline-block;
+        width: 100%;
     }
 
     .step-3 .col-md-4 {
@@ -401,10 +403,16 @@
         font-size: 16px;
     }
 
+    .cate-select-part {
+        width:50%;
+        position:relative;
+        display:inline-block;
+    }
+
     .cate-select .form-select {
         border: 1px solid #888;
         font-size: 14px;
-        width: 50%;
+        width: 100%;
     }
 
     .badge-part-bg {
@@ -416,7 +424,7 @@
         font-size: 10px;
         position: absolute;
         top: 7px;
-        left: 210px;
+        right: 40px;
     }
 
     .cate-inner-left ul li {
