@@ -19,9 +19,6 @@ article.content {
     .navbar-toggler {
         font-size: 16px
     }
-
-
-
     .cate-select-part {
         width: 100% !important;
     }
@@ -31,8 +28,6 @@ article.content {
         align-items: start !important;
     }
   
-
-
     .your-eqp-box-bg h5 {
         font-size: 18px;
     }
@@ -186,6 +181,19 @@ article.content {
     .about_box_leftpart a{
         width: 100%
     }
+    .home_form_part_bg {
+        width:92% !important;
+        left:4% !important;
+    }
+    .home_bg_img .home_bg_text {
+        padding: 30px 4% 0 4% !important;
+    }
+    .home_bg_img h3 {
+        font-size:28px !important;
+    }
+    .home_form_part_bg {
+        top:200px !important;
+    }
   }
 @media (min-width:576px) and (max-width:767px) {
     .pumpwater-sec .col-md-4 {
@@ -196,6 +204,12 @@ article.content {
     }
     .step .step-img img {
         width: 80px !important;
+    }
+    .home_form_part_bg {
+        top: 220px !important;
+    }
+    .home_sec-bootom-box_bg {
+        margin-top:320px !important;
     }
 }
 @media (max-width:767px) {
@@ -269,6 +283,23 @@ article.content {
     }
     .cate-select-part .form-select {
         font-size: 10px
+    }
+    section#hero {
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .home_bg_img {
+        border-radius:0;
+    }
+    .home_bg_img .home_bg_text {
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        padding: 40px 5% 0 5%;
+    }
+    .home_bg_img h3 {
+        font-size:35px;
     }
 }
 @media (min-width:768px) {
@@ -348,7 +379,34 @@ article.content {
     #footer .footer-top .footer-links ul li {
         padding: 5px 0;
     }
+    
 }
+
+@media (max-width:991px) {
+    .home_form_part_bg {
+        width: 80%;
+        left: 10%;
+        top: 250px;
+    }
+    .home_sec-bootom-box_bg {
+        width: 100%;
+        margin-top: 200px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        height:auto;
+    }
+    .home_sec-bootom-box_bg ul {
+        margin-bottom:0;
+    }
+    section#howworks {
+        padding-top:80px;
+    }
+    .home_form_part_bg {
+        height:auto;
+    }
+}
+
 @media (min-width: 992px) and (max-width:1199px) 
 
 {
@@ -368,8 +426,24 @@ article.content {
     .water-box-bg .title-sec h5 {
         font-size: 34px;
     }
+    .home_form_part_bg {
+        left:50px;
+        width:580px;
+    }
+    .home_sec-bootom-box_bg {
+        width:310px;
+    }
 }
 @media (min-width:1200px) {
+}
+
+@media (min-width:1200px) and (max-width:1399px){
+    .home_form_part_bg {
+        left:100px;
+    }
+    .home_sec-bootom-box_bg {
+
+    }
 }
 
 
