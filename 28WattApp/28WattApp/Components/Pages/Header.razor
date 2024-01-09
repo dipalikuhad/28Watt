@@ -1,4 +1,4 @@
-﻿<header id="Header" class="header fixed-top d-flex align-items-center">
+﻿@*  <header id="Header" class="header fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
@@ -17,14 +17,51 @@
         </nav>
 
     </div>
-</header> 
+</header>  *@
+<header class="navbar navbar-expand-lg  header fixed-top" id="Header">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="/assets/image/28wattlogo.png" alt="" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="las la-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#hero">About 28Watt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pumpandwater">Our products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sustainable home upgrades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
 <style>
     /*--------------------------------------------------------------
     # Header
     --------------------------------------------------------------*/
+    .navbar .navbar-brand {
+        padding-left:0 ;
+    }
+    .navbar-toggler {
+        background: #212529;
+        border-color: #212529;
+        color:#fff;
+    }
 
+        .navbar-toggler i {
+            color:#fff;
+        }
     .header {
-        height: 72px;
         transition: all 0.5s;
         z-index: 997;
         transition: all 0.5s;
@@ -40,9 +77,6 @@
 
 
   
-    .navbar {
-        padding: 0;
-    }
 
         .navbar ul {
             margin: 0;
