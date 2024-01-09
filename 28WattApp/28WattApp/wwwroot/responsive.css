@@ -7,17 +7,11 @@ p{
     font-size: 13px !important;
     margin-bottom: 10px
 }
+@media (max-width: 360px){
 
-article.content {
-    padding: 0 !important;
 }
+@media (max-width: 375px) {
 
-
-
-@media (max-width: 575px) {
-    .cate-select-part {
-        width: 100% !important;
-    }
     /*footer*/
     .copyright {
         flex-direction: column;
@@ -35,7 +29,9 @@ article.content {
         align-items: start !important;
     }
 
-   
+    #footer {
+        padding: 0 0 80px 0;
+    }
     .foot-logo img {
         width: 100px;
     }
@@ -136,7 +132,7 @@ article.content {
         font-weight: 700;
     }
 
-    
+    user agent stylesheet
     label {
         cursor: default;
     }
@@ -173,6 +169,7 @@ article.content {
     .badge-part-bg {
         font-size: 8px;
         top: 7px;
+        left: 150px;
     }
     .cate-img-part {
         padding-top: 10px !important;
@@ -234,9 +231,60 @@ article.content {
     .fq-section-bg .section-title{
         padding-bottom: 10px
     }
-    .top-img img {
-        width: 110px;
+   
+}
+@media (min-width: 376px) and (max-width:390px){
+    /*hotpumpand water*/
+    .top-img {
+        top: 115px;
+        left: 137px;
     }
+
+    .badge-part-bg {
+        left: 165px;
+    }
+    .badge-part-bg {
+        font-size: 8px;
+    }
+}
+@media (min-width: 391px) and (max-width:475px) {
+    .top-img {
+        top: 113px ;
+        left: 136px ;
+    }
+    .badge-part-bg {
+        left: 183px;
+    }
+    .badge-part-bg {
+        font-size: 8px;
+    }
+}
+@media (min-width: 476px) and (max-width:500px) {
+    /*hotpumpand water*/
+    .top-img {
+        top: 115px;
+        left: 137px;
+    }
+
+    .badge-part-bg {
+        left: 165px;
+    }
+}
+@media (min-width: 501px) and (max-width:575px) {
+    /*hotpumpand water*/
+    .top-img {
+        top: 115px;
+        left: 207px;
+    }
+
+    .badge-part-bg {
+        left: 285px;
+    }
+}
+@media (min-width: 376px) and (max-width:575px){
+        .top-img img {
+            width: 110px;
+        }
 
     .your-eqp-box-bg ul {
         padding-top: 10px !important;
@@ -266,7 +314,6 @@ article.content {
     .per-watt-price {
         padding: 10px 0 !important;
     }
-
     .water-box-right {
         padding-top: 10px;
     }
@@ -287,7 +334,6 @@ article.content {
         font-size: 13px;
         width: 100%;
     }
-
     .cate-img-part {
         padding-top: 10px !important;
     }
@@ -363,13 +409,11 @@ article.content {
     .fq-section-bg .section-title {
         padding-bottom: 10px
     }
-    .badge-part-bg {
-        font-size: 8px;
-    }
    
 }
+}
 
-@media (min-width:576px) and (max-width:767px){
+@media (min-width:576px) and (max-width:768px){
     .pumpwater-sec .col-md-4 {
         width: 100%
     }
@@ -395,124 +439,99 @@ article.content {
     .cate-select .form-select {
         width: 100% !important;
     }
+    .badge-part-bg {
    
+        left: 501px !important;
+    }
     .step .step-img img {
         width: 80px !important;
     }
 }
-
-@media  (max-width:767px) {
+@media  (max-width:768px) {
 
     .water-box-bg {
         margin-top: 20px !important;
         padding: 20px;
     }
-    .foot-boot-part-text {
-        flex-direction:column-reverse;
+}
+@media (min-width: 769px) and (max-width:820px){
+    .top-img {
+        top: 119px !important;
+        left: 99px !important;
     }
-    .foot-boot-left {
-        flex-direction: column-reverse;
+
+      
+}
+@media (min-width: 821px) and (max-width:911px) {
+    .top-img {
+        top: 119px !important;
+        left: 99px !important;
     }
-    #footer .copyright {
-        padding-left: 0 !important;
-    }
-        #footer .copyright ul li {
-            margin-right:10px !important;
-        }
-            #footer .copyright ul li:last-child {
-                padding-right: 0 !important;
-            }
-    .footsoc_links a:first-child {
-        margin-left: 0 !important;
-    }
-    .pumpwater-sec {
-        margin-top: 110px !important;
-    }
-    .your-eqp-box-bg {
-        padding-top:0 !important;
+       
+}
+@media (min-width: 912px) and (max-width:991px) {
+    .top-img {
+        top: 114px !important;
+        left: 153px !important;
     }
 }
 
-@media (min-width:768px) {
-    .eqp-side-box  {
-        position:sticky;
-        top:135px;
-        margin-bottom:20px;
-    }
-}
-
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width: 769px) and (max-width:991px) {
     .top-img img {
         width: 100px;
     }
-
     .your-eqp-box-bg {
-        padding: 0 20px 20px 20px !important;
+        padding: 60px 20px 20px 20px !important;
     }
-
-    .eqp-side-box h5 {
-        font-size: 20px !important;
+    .eqp-side-box h5{
+        font-size: 20px  !important;
     }
-
     .step .step-img img {
         padding-right: 10px !important;
         width: 90px !important;
     }
-
     .pay-box .form-check-inline-res:last-child {
         margin-top: 10px;
     }
-
-    .per-watt-price {
+    .per-watt-price{
         padding: 10px 0px 5px 0 !important;
     }
-
-    .goals-form-btn a {
+    .goals-form-btn a{
         font-size: 13px !important
     }
-
     .price-box-eqp-res {
         flex-direction: column;
         align-items: flex-start !important;
     }
-
     .water-box-bg .title h5 {
-        font-size: 26px !important;
+        font-size: 26px !important; 
     }
-
     .water-box-bg .title-sec h5 {
         font-size: 28px !important;
     }
-
     .water-box-bg {
         padding: 20px !important;
     }
-
-    .cate-part {
+    .cate-part{
         padding-top: 10px !important
     }
-
     .cate-select .form-select {
         width: 100% !important
     }
-
+    .badge-part-bg {
+        left: 290px !important; 
+    }
     .cate-img-part {
         padding-top: 25px !important
     }
-
     .pay-box {
         padding-top: 0px !important
     }
-
     .serv-info:first-child {
-        padding-top: 0px
-    }
-    .cate-select-part {
-        width:100% !important;
+        padding-top: 0px 
     }
 }
-
-@media (min-width: 992px) and (max-width:1199px){
+@media (min-width: 992px) and (max-width:1024px){
     .top-img {
         top: 94px !important;
         left: 106px !important;
@@ -523,13 +542,16 @@ article.content {
     .cate-select .form-select {
         width: 100% !important
     }
-  
+    .badge-part-bg {
+        left: 420px !important;
+    }
     .step .step-img img {
         padding-right: 15px !important;
         width: 80px !important;
     }
 }
-
-@media (min-width:1200px) {
-
+@media (min-width: 1025px) and (max-width:1280px){
+    .top-img {
+        left: 179px !important;
+    }
 }
