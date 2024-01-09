@@ -68,7 +68,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Knowledge resources</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3 footer-links">
+                    <div class="col-md-3 footer-links footer-links-res">
                         <h4>About 28Watt</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">About usfbghdfx</a></li>
@@ -80,30 +80,37 @@
             </div>
         </div>
 
-        <div class="container py-4">
-            <div class="copyright">
-                <ul class="p-0">
-                    <li>&copy; 28Watt pty ltd 2023</li>
-                    <li>Terms & conditions</li>
-                    <li>Privacy</li>
-                    <li>Cookies</li>
-                </ul>
+        <div class="container py-4 foot-bot">
+            <div class="foot-boot-part-text">
+                <div class="foot-boot-left">
+                    <div class="copy-text">
+                        <p class="mb-0">&copy; 28Watt pty ltd 2023</p>
+                    </div>
+                    <div class="copyright">
+                        <ul class="p-0 mb-0">
+                            <li>Terms & conditions</li>
+                            <li>Privacy</li>
+                            <li>Cookies</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="footsoc_links">
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                </div>
             </div>
-            <div class="footsoc_links">
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            </div>
+           
         </div>
     </div>
 </footer>
 <style>
     #footer {
-        padding: 0 0 30px 0;
         color: #212529;
         font-size: 14px;
     }
-
+  
         #footer .footer_cust_rate {
             text-align: center;
             font-size: 15px;
@@ -244,14 +251,14 @@
                 }
 
         #footer .copyright {
-            text-align: center;
-            float: left;
+    padding-left: 50px
         }
 
             #footer .copyright ul li {
                 display: inline-block;
                 margin-right: 50px;
                 font-size: 12px;
+                line-height: 30px;
             }
 
     .foot_top_part {
@@ -304,8 +311,7 @@
     }
 
     #footer .footsoc_links {
-        float: right;
-        text-align: center;
+       
         font-size: 13px;
         color: #212529;
     }
@@ -319,6 +325,16 @@
             margin-left: 5px;
         }
 
+    .foot-boot-part-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .foot-boot-left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 </style>
 @code {
 
