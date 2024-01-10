@@ -5,56 +5,59 @@
 
 <section id="hero">
     <div class="container ">
-        <div class="home_bg_img">
-            <div class="home_bg_text">
-                <h3>Save on your energy bill</h3>
-                <p>Discover how you can become more sustainable</p>
+        <div class="home-top-sec">
+            <div class="home_bg_img">
+                <div class="home_bg_text">
+                    <h3>Save on your energy bill</h3>
+                    <p>Discover how you can become more sustainable</p>
+                </div>
             </div>
-        </div>
-        <div class="home_form_part_bg">
-            <div class="form_top_part">  
-                <h4>Start with our the home scan for free advice</h4>
-                <ul class="">
-                    <li>Free and <b>personalized advice</b></li>
-                    <li>The best quotes from our <b>certified installers</b></li>
-                    <li>Quickly arranged online, <b>without obligation</b></li>
+            <div class="home_form_part_bg">
+                <div class="form_top_part">
+                    <h4>Start with our the home scan for free advice</h4>
+                    <ul class="">
+                        <li>Free and <b>personalized advice</b></li>
+                        <li>The best quotes from our <b>certified installers</b></li>
+                        <li>Quickly arranged online, <b>without obligation</b></li>
 
-                </ul>
+                    </ul>
+                </div>
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form home_form_sec">
+                    <div class="form-group mt-3">
+                        <label for="name">Home address</label>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Address" required>
+                    </div>
+                    <div class="row mt-3 mb-3 gx-3">
+                        <div class="form-group col-md-6">
+                            <label for="name">First name</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group col-md-6 mt-3 mt-md-0">
+                            <label for="name">E-mail address</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <label class="check-label">
+                        <input type="checkbox" /> I agree with the Terms and Conditions, and consent to the information
+                        I provided being used to generate tailored home upgrade advice.
+                    </label>
+                    <div class="form_sub_btn">
+                        <a href="pumpandwater" class="btn btn-primary rounded-pill"><i class="bi bi-arrow-right"></i>Start home scan</a>
+                    </div>
+                    <div class="form-bottom-text text-center pt-4">
+                        <p>
+                            Customers rate us 4.4/5
+                            <i class="las la-star checked"></i>
+                            <i class="las la-star checked"></i>
+                            <i class="las la-star checked"></i>
+                            <i class="las la-star checked"></i>
+                            <i class="las la-star-half-alt checked"></i>
+                        </p>
+                    </div>
+                </form>
             </div>
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form home_form_sec">
-                <div class="form-group mt-3">
-                    <label for="name">Home address</label>
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Address" required>
-                </div>
-                <div class="row mt-3 mb-3 gx-3">
-                    <div class="form-group col-md-6">
-                       <label for="name">First name</label>
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group col-md-6 mt-3 mt-md-0">
-                        <label for="name">E-mail address</label>
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                    </div>
-                </div>
-                <label class="check-label">
-                    <input type="checkbox" /> I agree with the Terms and Conditions, and consent to the information
-                    I provided being used to generate tailored home upgrade advice.
-                </label>
-                <div class="form_sub_btn">
-                    <a href="pumpandwater" class="btn btn-primary rounded-pill"><i class="bi bi-arrow-right"></i>Start home scan</a>
-                </div>
-                <div class="form-bottom-text text-center pt-4">
-                    <p>
-                        Customers rate us 4.4/5
-                        <i class="las la-star checked"></i>
-                        <i class="las la-star checked"></i>
-                        <i class="las la-star checked"></i>
-                        <i class="las la-star checked"></i>
-                        <i class="las la-star-half-alt checked"></i>
-                    </p>
-                </div>
-            </form>
         </div>
+       
         <div class="home_sec-bootom-box_bg">
             <div class="home_sec-bootom-box_bg_part">
                 <h6>Do you already what you want?</h6>
@@ -82,7 +85,7 @@
     .home_bg_img {
         background-image: url("../../assets/image/AdobeStock.png");
         width: 100%;
-        height: 592px;
+        height: 559px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -99,7 +102,7 @@
 
         .home_bg_img .home_bg_text {
             position: absolute;
-            top: 81px;
+            top: 62px;
             left: 62px;
         }
 
@@ -112,11 +115,11 @@
         height: 552px;
         padding: 30px;
         position: absolute;
-        top: 302px;
+        top: 272px;
         left: 175px;
         border-radius: 20px;
         background: #FFF;
-        box-shadow: 5px 4px 50px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 5px 4px 50px 0px rgba(0, 0, 0, 0.25)
     }
 
     .form_top_part h4 {
@@ -206,7 +209,7 @@
         background-color: #b7caff29;
         width: 430px;
         height: 169px;
-        padding: 15px;
+        padding: 20px;
         margin-top: 23px;
     }
 

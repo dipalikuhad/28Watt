@@ -1,23 +1,4 @@
-﻿@*  <header id="Header" class="header fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-        <div class="logo">
-            <a href="index.html"><img src="/assets/image/28wattlogo.png" alt="" class="img-fluid"></a>
-        </div>
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link active" href="#hero">About 28Watt</a></li>
-                <li><a class="nav-link" href="/pumpandwater">Our products</a></li>
-                <li><a class="nav-link" href="#services">Sustainable home upgrades</a></li>
-                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link " href="#team">Contact us</a></li>
-            </ul>
-         
-        </nav>
-
-    </div>
-</header>  *@
+﻿
 <header class="navbar navbar-expand-lg  header fixed-top" id="Header">
     <div class="container">
         <a class="navbar-brand" href="index.html"><img src="/assets/image/28wattlogo.png" alt="" class="img-fluid"></a>
@@ -50,16 +31,18 @@
     # Header
     --------------------------------------------------------------*/
     .navbar .navbar-brand {
-        padding-left:0 ;
+        padding-left: 0;
     }
+
     .navbar-toggler {
         background: #212529;
         border-color: #212529;
-        color:#fff;
+        color: #fff;
+        font-size: 16px
     }
 
         .navbar-toggler i {
-            color:#fff;
+            color: #fff;
         }
     .header {
         transition: all 0.5s;
@@ -75,15 +58,12 @@
             max-height: 40px;
         }
 
-
-  
-
         .navbar ul {
             margin: 0;
             padding: 0;
             display: flex;
             list-style: none;
-            align-items: center;
+            align-items: flex-start;
         }
 
         .navbar a:hover,
