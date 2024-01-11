@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="28WattApp.styles.css" />
     <link rel="stylesheet" href="style.css" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ @*    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> *@
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.theme.default.min.css">
     <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -25,9 +27,12 @@
     <script src="_framework/blazor.web.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="owal.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="assets/vendor/OwlCarousel/owl.carousel.min.js"></script>
+ @*    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> *@
    @*  <script src="assets/vendor/swiper/swiper.js"></script> *@
-    <script src="swiper.js"></script>
+   @*  <script src="swiper.js"></script> *@
 </body>
 <style>
     body {
@@ -41,7 +46,7 @@
         padding-bottom: 30px;
     }
 
-        .section-title h2 {
+        .section-title p {
             font-size: 20px;
             font-weight: 700;
             padding-bottom: 0;
@@ -49,7 +54,7 @@
             color: #3D70FF;
         }
 
-        .section-title p {
+        .section-title h2 {
             padding-bottom: 15px;
             margin-bottom: 15px;
             position: relative;
@@ -58,7 +63,7 @@
             color: #4e4039;
         }
 
-            .section-title p::after {
+            .section-title h2::after {
                 content: "";
                 position: absolute;
                 display: block;

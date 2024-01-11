@@ -11,14 +11,26 @@ p{
 article.content {
     padding: 0 !important;
 }
+@media (max-width: 360px) {
+    .home_sec-bootom-box_bg {
+        margin-top: 434px;
+    }
+}
+@media (min-width: 361px) and (max-width: 575px) {
+    .home_sec-bootom-box_bg {
+        margin-top: 414px;
+    }
+}
 @media (max-width: 575px) {
     /*header*/
     .navbar-brand img {
         width: 100px;
     }
+
     .navbar-toggler {
         font-size: 16px
     }
+
     .cate-select-part {
         width: 100% !important;
     }
@@ -27,84 +39,107 @@ article.content {
         flex-direction: column;
         align-items: start !important;
     }
-  
+
     .your-eqp-box-bg h5 {
         font-size: 18px;
     }
+
     .your-eqp-box-bg .text {
         padding-bottom: 7px;
     }
+
     .step .step-img img {
         padding-right: 10px;
         width: 100px;
     }
+
     .title-sec .pay-box {
         padding-top: 10px !important
     }
-    .step:first-child{
+
+    .step:first-child {
         padding-top: 10px !important
     }
+
     .quote-price {
         padding-top: 0 !important;
         line-height: 35px;
     }
-    .quote-price span {
-        font-size: 18px;
-    }
+
+        .quote-price span {
+            font-size: 18px;
+        }
+
     .foot-logo img {
         width: 100px;
     }
+
     .per-watt-price span {
         font-size: 18px;
     }
+
     .price-box-eqp {
-        margin-top: 10px  !important
+        margin-top: 10px !important
     }
+
     .goals-form-btn {
         margin-top: 15px !important
     }
+
         .goals-form-btn a {
             font-size: 12px;
         }
-        label {
-            cursor: default;
-        }
+
+    label {
+        cursor: default;
+    }
+
     .serv-info-res {
-        padding-top:20px !important
+        padding-top: 20px !important
     }
+
     .ser-inne-part ul {
-        margin-bottom: 0!important
-    }
-    .ser-inne-part h6{
         margin-bottom: 0 !important
     }
-   
+
+    .ser-inne-part h6 {
+        margin-bottom: 0 !important
+    }
+
     .cate-part {
         padding-top: 10px !important
     }
+
     .cate-img-part {
         padding-top: 10px !important;
     }
+
     .fq-section-bg .section-title {
         padding-bottom: 10px
     }
+
     .top-img img {
         width: 110px;
     }
+
     .your-eqp-box-bg ul {
         padding-top: 10px !important;
     }
+
     .per-watt-price {
         padding: 10px 0 !important;
     }
+
     .water-box-right {
         padding-top: 10px;
         font-size: 13px;
         width: 100%;
     }
+
     .cate-img-part {
         padding-top: 10px !important;
     }
+
     .fq-section-bg .section-title {
         padding-bottom: 10px
     }
@@ -112,31 +147,38 @@ article.content {
     .badge-part-bg {
         font-size: 8px;
     }
+
     .water-box-bg .title h5 {
         font-size: 20px;
     }
+
     .water-box-bg .title-sec h5 {
         font-size: 24px;
     }
-    .serv-info:first-child{
+
+    .serv-info:first-child {
         padding-top: 0 !important
     }
 
     /*home*/
-    #hero .container{
-      padding: 0 
-    }
+    /*#hero .container {
+        padding: 0
+    }*/
+
     .home_bg_img {
         height: 307px;
         border-radius: 0
     }
+
         .home_bg_img .home_bg_text {
             top: 23px;
             left: 25px;
         }
+
         .home_bg_img h3 {
             font-size: 28px;
         }
+
     .home_form_part_bg {
         width: 349px;
         height: 552px;
@@ -144,57 +186,91 @@ article.content {
         top: 179px;
         left: 14px;
     }
+
     .form_top_part h4 {
         font-size: 16px;
     }
+
     .form_top_part ul li {
         font-size: 12px;
     }
+
     .home_form_sec .form-group:first-child {
-        margin-top: 0 !important ;
+        margin-top: 0 !important;
     }
+
     .home_form_sec .form-control {
         height: 31px;
     }
+
     .home_form_sec input {
         font-size: 12px;
     }
+
     .home_form_sec .check-label {
         padding: 10px 0 18px 0;
     }
-    .home_form_sec .row{
+
+    .home_form_sec .row {
         margin-bottom: 10px !important
     }
+
     .form-bottom-text {
         padding-top: 10px !important
     }
+
     .about_box_leftpart {
-        padding: 15px 0 0px 0
+        padding-top: 15px;
     }
+
     .about_bg .row {
         flex-direction: column-reverse;
-          
     }
-    .about_bg .col-md-3 img{
+
+    .about_bg .col-md-3 img {
         width: 100%
     }
-    .about_box_leftpart a{
+
+    .about_box_leftpart a {
         width: 100%
     }
+
     .home_form_part_bg {
-        width:92% !important;
-        left:4% !important;
+        width: 92% !important;
+        left: 4% !important;
     }
+
     .home_bg_img .home_bg_text {
         padding: 30px 4% 0 4% !important;
     }
+
     .home_bg_img h3 {
-        font-size:28px !important;
+        font-size: 28px !important;
     }
+
     .home_form_part_bg {
-        top:200px !important;
+        top: 200px !important;
     }
-  }
+    .home_sec-bootom-box_bg {
+        width: 93%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    .request-bg .row {
+        flex-direction: column-reverse;
+    }
+    .requ-left-part {
+        padding-top: 15px;
+    }
+    .request-bg .requ-right-part img {
+        width: 100%;
+    }
+    .requ-left-part-btn a{
+        width: 100%
+    }
+}
 @media (min-width:576px) and (max-width:767px) {
     .pumpwater-sec .col-md-4 {
         width: 100%
@@ -301,6 +377,12 @@ article.content {
     .home_bg_img h3 {
         font-size:35px;
     }
+    .start-part  {
+        display: block;
+    }
+        .start-part i:first-child {
+            padding-left:0;
+        }
 }
 @media (min-width:768px) {
     .eqp-side-box {
@@ -362,6 +444,7 @@ article.content {
     .serv-info:first-child {
         padding-top: 0px;
     }
+   
     .cate-select-part {
         width: 100% !important;
     }
@@ -379,31 +462,63 @@ article.content {
     #footer .footer-top .footer-links ul li {
         padding: 5px 0;
     }
-    
-}
 
-@media (max-width:991px) {
-    .home_form_part_bg {
-        width: 80%;
-        left: 10%;
-        top: 250px;
-    }
+
+
+    /*home*/
     .home_sec-bootom-box_bg {
-        width: 100%;
-        margin-top: 200px;
+        width: 87%;
+        margin-top: 204px;
         float: none;
         margin-left: auto;
         margin-right: auto;
-        height:auto;
+        height: auto;
     }
+    .home_form_part_bg {
+        width: 67%;
+        left: 152px;
+        top: 250px;
+    }
+ 
+}
+
+@media (max-width:991px) {
+  
+    #hero .container {
+        padding: 0;
+    }
+ /*   .home_sec-bootom-box_bg {
+        width: 93%;
+        margin-top: 393px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }*/
     .home_sec-bootom-box_bg ul {
         margin-bottom:0;
     }
     section#howworks {
-        padding-top:80px;
+        padding-top:50px;
     }
     .home_form_part_bg {
         height:auto;
+    }
+    .about_bg {
+        padding: 20px;
+    }
+    .section-title {
+        padding-bottom: 5px;
+    }
+
+        .section-title h2 {
+            font-size: 24px;
+        }
+        .section-title p {
+            margin-bottom: 10px;
+        }
+    .request-bg {
+        padding: 20px;
     }
 }
 
@@ -427,19 +542,26 @@ article.content {
         font-size: 34px;
     }
     .home_form_part_bg {
-        left:50px;
-        width:580px;
+        top: 252px;
+        left: 80px;
+        width: 547px;
+        height: 575px;
     }
     .home_sec-bootom-box_bg {
-        width:310px;
+        width:320px;
+    }
+    .home_bg_img .home_bg_text {
+        position: absolute;
+        top: 52px;
+        left: 52px;
     }
 }
 @media (min-width:1200px) {
 }
 
-@media (min-width:1200px) and (max-width:1399px){
+@media (min-width:1200px) and (max-width:1299px){
     .home_form_part_bg {
-        left:100px;
+        left: 140px;
     }
     .home_sec-bootom-box_bg {
 
