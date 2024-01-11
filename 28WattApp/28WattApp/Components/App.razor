@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
  @*    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> *@
+
     <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.theme.default.min.css">
     <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
@@ -25,14 +26,38 @@
 <body>
     <Routes />
     <script src="_framework/blazor.web.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
     <script src="owal.js"></script>
-    <script src="jquery.min.js"></script>
     <script src="assets/vendor/OwlCarousel/owl.carousel.min.js"></script>
  @*    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> *@
    @*  <script src="assets/vendor/swiper/swiper.js"></script> *@
    @*  <script src="swiper.js"></script> *@
+
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        });
+   </script>
+
+    
 </body>
 <style>
     body {
