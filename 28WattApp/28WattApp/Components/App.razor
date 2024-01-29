@@ -25,12 +25,13 @@
 
 <body>
     <Routes />
-    <script src="_framework/blazor.web.js"></script>
+    <script src="owal.js"></script>
+    <script src="assets/vendor/OwlCarousel/owl.carousel.min.js"></script>
+  @*   <script src="_framework/blazor.web.js"></script> *@
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
-    <script src="owal.js"></script>
-    <script src="assets/vendor/OwlCarousel/owl.carousel.min.js"></script>
+  
  @*    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> *@
    @*  <script src="assets/vendor/swiper/swiper.js"></script> *@
    @*  <script src="swiper.js"></script> *@
@@ -60,6 +61,9 @@
     
 </body>
 <style>
+    a:-webkit-any-link:focus-visible {
+        outline: inherit;
+    }
     body {
         font-family: 'Inter', sans-serif;
         color: #212529;
@@ -72,7 +76,7 @@
     }
 
         .section-title p {
-            font-size: 20px;
+            font-size: 20px !important;
             font-weight: 700;
             padding-bottom: 0;
             margin-bottom: 15px;
